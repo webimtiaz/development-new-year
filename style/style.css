@@ -1,0 +1,240 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+    color:rgba(255, 68, 0, 0.815) ;
+}
+ul,li{
+    list-style: none;
+}
+
+
+/* font-family: 'Brygada 1918', serif; */
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+
+
+/*=============== banner css part start ============= */
+.banner{
+    background: url(../images/banner/banner3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    padding-right: 100px;
+    padding-left: 780px;
+    text-align: right;
+    
+}
+.banner_text{
+    color: #FFFFFF;
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.banner_titel{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+    padding: 30px 0;
+    padding-left: 110px;
+}
+.btn_primary{
+    padding: 15px 20px;
+    background: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/*=========================== / My_failures/========================= */
+
+
+
+.My_failures{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    padding: 100px;
+}
+.failures_main{
+    padding: 120px;
+    margin-top: 50px;
+}
+.failures_text{
+    color: #151414;
+;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+}
+.failures_titel{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 20px 0;
+}
+.ul_cls{
+
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    padding: 20px 0;
+}
+
+/* =====================My Plans====================== */
+
+.Plans{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.main_plans{
+    display: flex;
+}
+
+.plans_two{
+    padding: 40px;
+    text-align: center;
+   
+   
+}
+.plans_two img{
+    display: flex;
+    align-items: center;
+}
+.Plans_text{
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+}
+.plans_titel{
+    color: #737272;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 50px;
+
+}
+/* ===========================Awlays keep a positive mindset============================== */
+section{
+    padding-bottom: 60px;
+}
+.Awlays{
+    background: url(../images/watch.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 80px;
+}
+.lenear{
+    background: linear-gradient(to right,rgba(255, 136, 0, 0.849),rgba(21, 20, 20, 0));
+}
+.awlays_text{
+    color: #FFFFFF;
+    padding: 50px;
+    padding-right: 550px;
+    font-size: 40px ;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+   
+}
+.btn_call{
+    color:rgba(185, 75, 2, 0.759);
+    border: 0;
+    border-radius: 5px;
+    background: #FFFFFF;
+    padding: 20px 40px;
+    margin-left: 50px;
+    margin-bottom: 45px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ===================footer css part start ============================ */
+footer{
+    background: #151414;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.footer_main{
+    margin-left: 65px;
+    width: 70%;
+}
+.footer_text{
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+
+}
+.footer_titel{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 550px;
+    /* padding-right: 300px; */
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+.footer_addres{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 30px;
+}
+.footer_icon{
+    display: flex;
+    justify-content: left;
+    margin-right: 1100px;
+    margin-left: 50px;
+}
+.Subscribe{
+    width: 40%;
+    /* margin-right: 600px; */
+}
+.subscribe_text{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    padding-bottom: 30px;
+}
+.email{
+    background: #151414;
+    padding: 20px 50px;
+    border: 1px solid#ffffff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
