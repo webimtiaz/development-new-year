@@ -1,5 +1,5 @@
 *{
-    margin: 0 auto;
+    margin: 0 ;
     padding: 0;
     box-sizing: border-box;
 
@@ -104,6 +104,7 @@ ul,li{
 }
 .main_plans{
     display: flex;
+    justify-content: center;
 }
 
 .plans_two{
@@ -115,6 +116,8 @@ ul,li{
 .plans_two img{
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-left: 61px;
 }
 .Plans_text{
     color: #151414;
@@ -172,8 +175,8 @@ footer{
     width: 100%;
 }
 .footer_main{
-    margin-left: 65px;
-    width: 70%;
+    width: 60%;
+    margin-left: 70px;
 }
 .footer_text{
     color: #FFFFFF;
@@ -187,10 +190,9 @@ footer{
     font-size: 18px;
     font-family: 400;
     font-family: 'Open Sans', sans-serif;
-    margin-right: 550px;
-    /* padding-right: 300px; */
     padding-bottom: 30px;
     line-height: 30px;
+    padding-right: 30px;
 }
 .footer_addres{
     color: #FFFFFF;
@@ -202,12 +204,11 @@ footer{
 .footer_icon{
     display: flex;
     justify-content: left;
-    margin-right: 1100px;
-    margin-left: 50px;
+    margin-left: 80px;
 }
 .Subscribe{
     width: 40%;
-    /* margin-right: 600px; */
+    padding-right: 200px ;
 }
 .subscribe_text{
     color: #ffffff;
@@ -222,6 +223,12 @@ footer{
     border: 1px solid#ffffff;
     border-radius: 5px;
     margin-bottom: 20px;
+}
+.btn_sub{
+    background:#1ec1f7 ;
+    padding: 20px 40px;
+    border: 0;
+    border-radius: 5px;
 }
 
 
